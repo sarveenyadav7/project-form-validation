@@ -36,9 +36,8 @@ function sarveen(){
         document.querySelector('.input_wrong').innerText = 'require minimum 8 character'
     }
     else{
-        document.querySelector('.input_success').innerText = 'Successfull'
+        document.querySelector('.input_wrong').innerText = ''
+        document.querySelector('.input_success').innerText = 'Successfully Submitted'
     }
-    // else{
-        // document.querySelector('input_success').innerText = 'success'
-    // }
+
 }
