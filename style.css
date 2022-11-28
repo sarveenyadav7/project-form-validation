@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.outer{
+    width: 100%;
+    height: 100vh;
+    /* border: 3px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_col{
+    width: 50%;
+    height: 100vh;
+    background-color: #cce4ff;
+    float: left;
+}
+.right_col{
+    width: 50%;
+    height: 100vh;
+    background-color: #1e1f6f;
+    float:left;
+}
+.sec1{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px;
+}
+.sec2{
+    width: 50%;
+    height: auto;
+    /* border: 3px solid red; */
+    float: left;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 20%;
+    height: 40px;
+    /* border: 1px solid salmon; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.logo img{
+    width: 34%;
+    margin-left: 36%;
+}
+.welcome{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+.login{
+    width: 70%;
+    height: 34px;
+    border: 1px solid rgba( 0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 8px;
+    font-weight: 500;
+    box-shadow: 2px 2px rgba( 0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.icon{
+    width: 30%;
+    float: left;
+}
+.log{
+    width: 70%;
+    float: left;
+}
+.or{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    color: rgba( 0, 0, 0, 0.2);
+}
+.form_styling{
+    width: 70%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    padding: 14px;
+}
+.registration_input{
+ width: 100%;
+ height: 30px;
+ margin-top: 5px;
+}
+.names ::placeholder{
+    padding-left: 10px;
+}
+.mailid ::placeholder{
+    padding-left: 10px;
+}
+.psd ::placeholder{
+    padding-left: 10px;
+}
+.input_wrong{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.input_success{
+    color: green;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.forget{
+    width: 50%;
+    height: 20px;
+    font-size: 12px;
+    /* border: 2px solid rebeccapurple; */
+    float: left;
+    text-align: right;
+    padding-right: 4px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.logged_in{
+    width: 50%;
+    height: 20px;
+    font-size: 12px;
+    /* border: 2px solid rebeccapurple; */
+    float: left;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 16px;
+    background-color: #1e1f6f;
+    color: white;
+}
+.account{
+    color: rgba( 0, 0, 0, 0.4);
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.sec3{
+    width: 50%;
+    height: 550px;
+    /* border: 3px solid red; */
+    float: left;
+    background-image: url(profile.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.sec3 h5{
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 30px;
+    color: rgba( 0, 0, 0, 0.6);
+}
+.sec3 p{
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: rgba( 0, 0, 0, 0.2);
+}
+.btn1{
+    float: right;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+
+
+

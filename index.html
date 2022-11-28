@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Validation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+
+<body>
+    <div class="outer">
+
+        <div class="left_col"></div>
+
+        <div class="right_col"></div>
+
+        <div class="sec1">
+
+            <div class="sec2">
+
+                <div class="logo"><img src="mike.png" alt=""></div>
+
+                <div class="welcome">Welcome Back</div>
+
+                <div class="login">
+
+                    <div class="icon"><i class="fa fa-google" aria-hidden="true"></i></div>
+                    <div class="log">Log in with Google</div>
+                    
+                </div>
+
+                <div class="or">OR</div>
+
+                <section>
+                    <form class="form_styling" onsubmit="event.preventDefault(); return sarveen()">
+
+                        <div class="names">
+                            <input type="text" name="fullname" placeholder="User Name" id="user_person" class="registration_input">
+                        </div>
+
+                        <div class="mailid">
+                            <input type="email" name="email" id="user_email" placeholder="User Email"class="registration_input">
+                        </div>
+
+                        <div class="psd">
+                            <input type="password" name="password" id="user_password" placeholder="User Password" class="registration_input">
+                        </div>
+
+                        <div class="input_wrong"></div>
+                        <div class="input_success"></div>
+
+                        <div class="logged_in">
+                           <i class="fa fa-square-o" aria-hidden="true"></i>
+                            <span>Keep me logged in</span>
+                        </div>
+                        <div class="forget"><ins>Forgot password</ins></div>
+
+
+                        <button type="submit" class="btn">Create New Account</button>
+
+                        <div class="account">Dont have an account yet? 
+                            <a href="https://i.pinimg.com/736x/a2/bb/de/a2bbdea29ae94f652292da1f0b9c589c.jpg">Sign up</a>
+                        </div>
+
+                    </form>
+                </section>
+            </div>
+            <div class="sec3">
+                <h5>New Update Availabel</h5>
+                <p>We have added some new<br/> awesome features.</p>
+                <button class="btn1">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
