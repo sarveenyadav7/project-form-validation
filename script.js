@@ -32,14 +32,17 @@ function sarveen(){
     else if(!Users_Mail.match(emailStructure)){
         document.querySelector('.input_wrong').innerText = 'Enter valid e-mail...'
     }
-    else if (Userspassword_Length <=0){
+    else if (Userspassword_Length ==0){
         document.querySelector('.input_wrong').innerText = 'Password is required......'
+        document.querySelector('.input_success').innerText = ''
     }
     else if(Userspassword_Length <=5){
         document.querySelector('.input_wrong').innerText = 'Password is too Short.....'
+        document.querySelector('.input_success').innerText = ''
     }
     else if(Userspassword_Length <=10){
         document.querySelector('.input_wrong').innerText = 'Password is Moderate.....'
+        document.querySelector('.input_success').innerText = ''
     }
     else if(Userspassword_Length <=20){
         document.querySelector('.input_wrong').innerText = ''
